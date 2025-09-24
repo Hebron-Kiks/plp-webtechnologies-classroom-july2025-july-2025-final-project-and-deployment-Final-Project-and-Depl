@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FreshGroceries - Home</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <img src="images/logo.png" alt="FreshGroceries Logo" class="logo">
+      <span class="menu-toggle">☰</span>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="cart.html">Cart 🛒</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Fresh Groceries Delivered to Your Door</h1>
+    <p>Order online and get same-day delivery</p>
+    <a href="products.html" class="btn">Shop Now</a>
+  </section>
+
+  <!-- Categories -->
+  <section class="categories">
+    <h2>Shop by Category</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="images/fruits/apple.jpg" alt="Fruits">
+        <h3>Fruits</h3>
+        <a href="products.html" class="btn">Shop Now</a>
+      </div>
+      <div class="card">
+        <img src="images/vegetables/carrot.jpg" alt="Vegetables">
+        <h3>Vegetables</h3>
+        <a href="products.html" class="btn">Shop Now</a>
+      </div>
+      <div class="card">
+        <img src="images/dairy/milk.jpg" alt="Dairy">
+        <h3>Dairy</h3>
+        <a href="products.html" class="btn">Shop Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 FreshGroceries. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    document.querySelector(".menu-toggle").addEventListener("click", () => {
+      document.querySelector("nav ul").classList.toggle("show");
+    });
+  </script>
+</body>
+</html>

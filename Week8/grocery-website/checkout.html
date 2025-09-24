@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FreshGroceries - Checkout</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="images/logo.png" alt="Logo" class="logo">
+      <span class="menu-toggle">☰</span>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="cart.html">Cart 🛒</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2 style="text-align:center; margin:20px;">Checkout</h2>
+    <form id="checkout-form" style="max-width:400px; margin:0 auto; display:flex; flex-direction:column; gap:10px;">
+      <input type="text" placeholder="Full Name" required>
+      <input type="text" placeholder="Phone Number" required>
+      <input type="text" placeholder="Address" required>
+      <input type="text" placeholder="City" required>
+      <button type="submit" class="btn">Place Order</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 FreshGroceries. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

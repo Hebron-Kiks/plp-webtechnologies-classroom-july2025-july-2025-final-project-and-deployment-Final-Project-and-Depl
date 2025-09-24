@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FreshGroceries - Cart</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <img src="images/logo.png" alt="FreshGroceries Logo" class="logo">
+      <span class="menu-toggle">☰</span>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="cart.html" class="active">Cart 🛒</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero small-hero">
+    <h1>Your Shopping Cart</h1>
+    <p>Review your items before checkout</p>
+  </section>
+
+  <!-- Cart Section -->
+  <section class="cart">
+    <table>
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Qty</th>
+          <th>Price</th>
+          <th>Subtotal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Fresh Apple</td>
+          <td>
+            <button class="qty-btn">-</button>
+            <span>2</span>
+            <button class="qty-btn">+</button>
+          </td>
+          <td>$1.50</td>
+          <td>$3.00</td>
+        </tr>
+        <tr>
+          <td>Organic Carrots</td>
+          <td>
+            <button class="qty-btn">-</button>
+            <span>1</span>
+            <button class="qty-btn">+</button>
+          </td>
+          <td>$0.80</td>
+          <td>$0.80</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="cart-summary">
+      <h3>Total: $3.80</h3>
+      <button class="btn checkout-btn">Proceed to Checkout</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 FreshGroceries. All rights reserved.</p>
+  </footer>
+</body>
+</html>
