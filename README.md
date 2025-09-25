@@ -73,6 +73,7 @@ freshgroceries/
 - The project can be deployed on **GitHub Pages, Netlify, or Vercel**.  
 - A **staging environment** is recommended for testing before going live.  
 - Always keep a **rollback strategy** in case a deployment introduces issues.  
+- Live Demo: https://hebron-kiks.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/
 
 ---
 
